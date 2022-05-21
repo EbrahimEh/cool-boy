@@ -14,7 +14,7 @@ h1 {
 
 
 
-section {
+.flexible-conteint {
     display: flex;
     margin-bottom: 150px;
 }
@@ -22,6 +22,8 @@ section {
 .new-web {
     width: 50%;
     padding-left: 5%;
+
+
 }
 
 .new-web img {
@@ -35,6 +37,10 @@ section {
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 20px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .link-button:hover {
@@ -51,4 +57,62 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#web-dev-ex {
+
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+
+
+}
+
+.experienc-item {
+    border-radius: 10px;
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid red;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer {
+    text-align: center;
+
+}
+
+p {
+    font-family: cursive;
+}
+
+.fhover {
+    color: rgb(29, 128, 215);
+}
+
+.fhover:hover {
+    background-color: rgb(219, 219, 19);
+    transition: 2s;
+    width: 70%;
+}
+
+.bhover {
+    color: lightblue;
+}
+
+.bhover:hover {
+    background-color: hotpink;
+    transition: 2s;
+    width: 75%;
+}
+
+#ex {
+    margin-left: 80px;
 }
