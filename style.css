@@ -16,6 +16,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .new-web {
@@ -36,7 +37,18 @@ section {
     border-radius: 20px;
 }
 
+.link-button:hover {
+    background-color: rgb(239, 139, 9);
+    transition: 2s;
+}
+
 .top-benar {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dreem-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
